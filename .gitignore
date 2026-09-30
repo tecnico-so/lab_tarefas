@@ -446,3 +446,6 @@ TSWLatexianTemp*
 
 # old files folder
 _old
+
+# executables
+src/thread
