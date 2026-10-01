@@ -86,29 +86,29 @@ Vamos repetir a execução várias vezes consecutivas para tentar observar o res
 
 Com a seguinte sintaxe pode repetir um mesmo comando, representado por `your_command`, dez vezes.
 
-`sh
+```sh
 for i in {1..10}; do your_command; done
-`
+```
 
 Vamos executar o nosso exemplo dez vezes.
 
-`sh
+```sh
 for i in {1..10}; do ./thread; done
-`
+```
 
 Surgiu alguma execução diferente?
 Se ainda não, incrementar para 100.
 
-`sh
+```sh
 for i in {1..100}; do ./thread; done
-`
+```
 
 E agora? Se ainda não, incrementar para 1000.
 Neste caso, vamos usar o comando `grep` para filtrar o resultado para aparecer apenas o resultado diferente, caso aconteça.
 
-`sh
+```sh
 for i in {1..100}; do ./thread; done | grep 2
-`
+```
 
 Se 1000 não for suficiente, continue a incrementar o número de repetições.
 
