@@ -133,3 +133,7 @@ As experiências, sobretudo as repetições, mostraram também uma propriedade f
 
 Vimos como `sleep` pode tornar certas ordens mais prováveis  de observar mas **não resolve** o problema geral de coordenar acessos concorrentes a dados partilhados. 
 Para isso serão necessários mecanismos de sincronização.
+
+----
+
+Contactos para sugestões/correções: [LEIC-Alameda](mailto:leic-so-alameda@disciplinas.tecnico.ulisboa.pt), [LEIC-Tagus](mailto:leic-so-tagus@disciplinas.tecnico.ulisboa.pt), [LETI](mailto:leti-so-tagus@disciplinas.tecnico.ulisboa.pt)
